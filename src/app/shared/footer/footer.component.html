@@ -1,0 +1,9 @@
+<footer class="footer-content">
+    <div class="container bg-dark">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md-6  ">This template is designed by <a href="http://www.maxartkiller.in" target="_blank" class="">www.maxartkiller.in</a></div>
+            <div class="col-md-6   text-right"><a href="#" target="_blank" class="">Privacy Policy</a> | <a href="#" target="_blank" class="">Terms of use</a> </div>
+            <div class="col-md-4   text-right"><a href="#" target="_blank" class="">Estado Servidor</a> | <span *ngIf="wsService.socketStatus" class="text-success">En linea</span> <span *ngIf="!wsService.socketStatus" class="text-danger">Desconectado</span></div>
+        </div>
+    </div>
+</footer>
